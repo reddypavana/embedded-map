@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.cointainer{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: var(align-items);
+    
+}
+
+h1{
+    color: #333;
+    margin-bottom: 60px;
+
+}
+iframe{
+    width: 1000%;
+    height: 500px;
+    filter:invert(100%);
+}
